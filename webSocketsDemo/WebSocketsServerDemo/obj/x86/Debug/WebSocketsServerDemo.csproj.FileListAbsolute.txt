@@ -1,0 +1,15 @@
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\WebSocketsServerDemo.exe
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\WebSocketsServerDemo.pdb
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\SuperSocket.Common.dll
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\SuperWebSocket.dll
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\log4net.dll
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\obj\x86\Debug\WebSocketsServerDemo.csprojResolveAssemblyReference.cache
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\obj\x86\Debug\WebSocketsServerDemo.exe
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\obj\x86\Debug\WebSocketsServerDemo.pdb
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\WebSocketsServerDemo.exe.config
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\MySql.Data.dll
+C:\Users\oswaldo\Documents\ProyectoChat\udlamsg\WebSocketsDemo\WebSocketsServerDemo\bin\Debug\WebSocketsServerDemo.exe.config
+C:\Users\oswaldo\Documents\ProyectoChat\udlamsg\WebSocketsDemo\WebSocketsServerDemo\obj\x86\Debug\WebSocketsServerDemo.exe
+C:\Users\oswaldo\Documents\ProyectoChat\udlamsg\WebSocketsDemo\WebSocketsServerDemo\obj\x86\Debug\WebSocketsServerDemo.pdb
