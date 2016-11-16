@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alejandro.udlamsg.Interfaz.Asignaturas">
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/logoprincipal"
+            android:id="@+id/ImageView_Logoprincipal"
+            android:visibility="visible"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:layout_height="350dp"
+        android:id="@+id/lista_asignaturas"
+        android:layout_width="380dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/messages" />
+
+    <TextView
+        android:text="Materias matriculadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_titulointegrantes"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/toolbar"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginEnd="55dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/textView_titulointegrantes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignBottom="@+id/textView_titulointegrantes"
+        android:layout_alignRight="@+id/lista_asignaturas"
+        android:layout_alignEnd="@+id/lista_asignaturas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:id="@+id/textView10"
+        android:layout_above="@+id/textView_titulointegrantes"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/messages"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

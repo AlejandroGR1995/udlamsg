@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alejandro.udlamsg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <application
+        android:name = "com.example.alejandro.udlamsg.Websocketclient"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Interfaz.Iniciarsesion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interfaz.Principal"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Interfaz.chat" />
+        <activity android:name=".Interfaz.ListaIntegrantes" />
+        <activity android:name=".lista.ListaChats" />
+        <activity android:name=".lista.ListaCursos" />
+        <activity android:name=".Interfaz.MainActivity" />
+        <activity android:name=".Interfaz.creditos" />
+        <activity android:name=".Interfaz.Asignaturas"></activity>
+    </application>
+
+</manifest>

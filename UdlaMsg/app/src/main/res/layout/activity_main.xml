@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alejandro.udlamsg.Interfaz.MainActivity"
+    android:id="@+id/rl_view">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewFotoperfil"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonCargarfoto"
+        android:src="@drawable/camra"
+        android:layout_alignBottom="@+id/imageViewFotoperfil"
+        android:layout_alignEnd="@+id/imageViewFotoperfil" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Alejandro Garcia Rodriguez" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:id="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/editText"
+        android:layout_toStartOf="@+id/editText"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editText"
+        android:text="Disponible" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/lapiz" />
+</RelativeLayout>

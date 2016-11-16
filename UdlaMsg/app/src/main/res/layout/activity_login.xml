@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/inicio"
+    tools:context="com.example.alejandro.udlamsg.Interfaz.Iniciarsesion">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/letraslog"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_user"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="35dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:hint="           Usuario" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_contra"
+        android:hint="        Contraseña"
+        android:layout_below="@+id/editText_user"
+        android:layout_alignStart="@+id/editText_user"
+        android:layout_alignEnd="@+id/editText_user" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_login"
+        android:src="@drawable/botoninicio"
+        android:visibility="visible"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:background="@color/accent_material_dark"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UDLAMSG"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar contraseña"
+        android:id="@+id/textViewmens"
+        android:layout_below="@+id/Button_login"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
